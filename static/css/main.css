@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Huninn&display=swap");
+
+* {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  color: rgb(210, 210, 210);
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 20px 0;
+  background-color: #222222;
+}
+
+.header .container {
+  max-width: 1000px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-profile {
+  display: flex;
+  gap: 10px;
+  height: 20px;
+}
+
+.header-h2,
+.header-profile,
+.header-profile-e,
+.header-profile-p {
+  transition: all 0.4s;
+  margin: 0;
+}
+
+.header-h2:hover,
+.header-profile:hover,
+.header-profile-e:hover,
+.header-profile-p:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+  color: rgb(230, 230, 230);
+}
+
+/* Main */
+
+.main {
+  margin-top: 50px;
+}
+
+.main .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.main-profile {
+  display: flex;
+}
+
+.main-change {
+  background-color: #222222;
+  /* padding: 21px 25px; */
+
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+  height: 170px;
+
+  border-radius: 10px;
+  padding: 0 0 5px 20px;
+
+  margin-right: 20px;
+}
+
+.main-change ul {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.main-change ul li {
+  padding: 10px 0;
+}
+
+.main-change-lc {
+  padding-top: 10px;
+}
+
+.main-change ul li,
+.main-change-lc {
+  transition: all 0.4s;
+}
+
+.main-change ul li:hover,
+.main-change-lc:hover {
+  transform: translateX(-2px);
+  cursor: pointer;
+}
+
+.main-profile-info {
+  background-color: #222222;
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px;
+}
+
+.profile-info {
+  margin-bottom: 10px;
+}
